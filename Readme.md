@@ -16,10 +16,15 @@ Dockerfile は、Docker イメージを構築するための指示を記述し�
 
 <h1>main.py について</h1>
   main.py は、ごくシンプルな Python スクリプトです。
+
 - name = "Python": name という変数に文字列「Python」を代入しています。
+
 - version = 3.9: version という変数に数値「3.9」を代入しています。
+
 - is_awesome = True: is_awesome という変数に真偽値（True/False）の「True」を代入しています。
+
 - print(f"言語名: {name}, バージョン: {version}, 素晴らしい？: {is_awesome}"): これは f-string と呼ばれる機能を使って、定義した変数の中身を文字列の中に埋め込んで出力しています。
+
 - print(type(name), type(version), type(is_awesome)): それぞれの変数のデータ型を出力しています。Python では、変数に代入された値によって自動的に型が決定されます。この場合、それぞれ str（文字列）、float（浮動小数点数）、bool（真偽値）と表示されます。
 
   <h3>【まとめ】</h3>
